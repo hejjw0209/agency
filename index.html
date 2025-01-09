@@ -7,11 +7,13 @@
 
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./css/common.css" />
         <link rel="stylesheet" href="./css/style.css" />
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
         <!-- s: header -->
@@ -41,12 +43,12 @@
         <main id="main">
             <section class="video">
                 <div class="video-title">
-                    <h2>an interior design company</h2>
-                    <p>
+                    <h2 data-aos="fade-up" data-aos-delay="300">an interior design company</h2>
+                    <p data-aos="fade-up" data-aos-delay="600">
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                         consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                     </p>
-                    <a href="#" class="btn">request work</a>
+                    <a data-aos="fade-up" data-aos-delay="900" href="#" class="btn">request work</a>
                 </div>
 
                 <div class="video-wrap">
@@ -64,9 +66,9 @@
 
             <section class="about">
                 <div class="inner">
-                    <h3 class="sec-title">about us</h3>
-                    <figure><img src="./img/agency-pic.jpg" alt="#" /></figure>
-                    <p>
+                    <h3 class="sec-title" data-aos="fade-up">about us</h3>
+                    <figure data-aos="fade-up" data-aos-delay="400"><img src="./img/agency-pic.jpg" alt="#" /></figure>
+                    <p data-aos="fade-up">
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                         consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                     </p>
@@ -76,11 +78,11 @@
 
             <section class="team">
                 <div class="inner">
-                    <h3 class="sec-title">team</h3>
+                    <h3 class="sec-title" data-aos="fade-up">team</h3>
 
                     <div class="swiper team-slider">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-aos="fade-up">
                                 <figure>
                                     <img
                                         src="https://i.namu.wiki/i/NcIeONrh6C9WqjdxUa8A7vi3yQoWNdob6qVfCexjJeUDXse6xyRR1Mx2o8PI70-MdxiMLQKo_Ndds_LkC1dSi3Ygs1hCNwt5nmN-ODEzUdUPMJBrHHuTpxk2aZ3BaRY9XzRiygH2X-ugUqWtSn9dVQ.webp"
@@ -92,7 +94,7 @@
                                     <dd>Founder & CEO</dd>
                                 </dl>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
                                 <figure>
                                     <img
                                         src="https://i.namu.wiki/i/hTt5wSgHbVlknPec0nzWZB9ieWr39o3x2VMeKbp1yTvHms2FtHTE-XLMm1l2T3wZ4mfvi2E_kqVn1NzNTb57_woYNw808NNy0CCcNWEhxqtHou9sSVOBs67LIhIbAx5oCKC84xHTyuW_nNg9yoWDyg.webp"
@@ -104,7 +106,7 @@
                                     <dd>President of Sales</dd>
                                 </dl>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-aos="fade-up" data-aos-delay="500">
                                 <figure>
                                     <img
                                         src="https://i.namu.wiki/i/ocZ7j1I3h65qS0nD7SzSmEI_1o1QY9NsbaHB0TMPKhXd-Ju1KHQXmrQl_eRkuv5HNMiYDqfGn999NL0-PYBwY4wRRI6xdyxgB5UYEpZEWNEu8LN1Fm0U3gO0OJ7IkTmSrfCFn7pfLdJFc0amxQudxQ.webp"
@@ -116,7 +118,7 @@
                                     <dd>Web Designer</dd>
                                 </dl>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-aos="fade-up" data-aos-delay="700">
                                 <figure>
                                     <img
                                         src="https://i.namu.wiki/i/8-hqHIK5pijesa5sxEjZ-hYY6EeJjCqiQveZQmhT9fRB2YiJboCE_Nv3is3VGVCc-IR1hViA2eEBpdCCKHrv2gPXYtNSIj_rtQwTzKc--qLtr2pbNPsv24FngYpljJ-Je_ZbkmyI_ZO-kCM44tVuAw.webp"
@@ -130,7 +132,7 @@
                             </div>
                         </div>
 
-                        <a href="#" class="btn">work with us</a>
+                        <a data-aos="fade-up" href="#" class="btn">work with us</a>
                     </div>
                 </div>
             </section>
@@ -215,5 +217,8 @@
             </div>
         </footer>
         <!-- //e: footer -->
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
