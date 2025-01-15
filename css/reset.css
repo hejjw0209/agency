@@ -129,6 +129,7 @@ table {
     border-spacing: 0;
 }
 
-img {
+img,
+iframe {
     vertical-align: top;
 }
